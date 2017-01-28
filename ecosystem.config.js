@@ -8,7 +8,7 @@ module.exports = {
     // First application
     {
       name      : "carcareapp-api",
-      script    : "app.js",
+      script    : "server index.js",
       env_production : {
         NODE_ENV: "production"
       }
