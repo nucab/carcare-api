@@ -26,7 +26,7 @@ module.exports = {
       ref  : "origin/master",
       repo : "https://github.com/noahjohn9259/carcare-api.git",
       path : "~/carcareapp-api",
-      "post-deploy" : "nvm install && npm install && /home/deploy/.nvm/versions/node/v6.9.4/bin/pm2 startOrRestart ecosystem.config.json --env production"
+      "post-deploy" : "nvm install && npm install && /home/deploy/.nvm/versions/node/v6.9.4/bin/pm2 startOrRestart ~/carcareapp-api/source/ecosystem.config.js --env production"
     }
   }
 }
